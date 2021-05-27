@@ -38,9 +38,18 @@ function App() {
 			<HeroBanner />
 			<main className='spacer'></main>
 			<Container>
-				<Section />
-				<Section />
-				<Section />
+				<Section
+					title={'LaChance Development'}
+					subtitle={'Established 2021.'}
+					services={[
+						'Freelance Web Developer',
+						'Designs Websites',
+						'Completely custom code and layout',
+						'Mobile responsive design'
+					]}
+					address={'St. Louis, Missouri'}
+				/>
+				<Section id='contact' title={'Contact me'} services={['Email me: nicholasplachance@gmail.com']} />
 			</Container>
 			<Footer />
 		</div>

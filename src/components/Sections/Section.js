@@ -13,8 +13,7 @@ const Section = (props) => {
 					<address>
 						{props.address ? (
 							<div className='address-container'>
-								<h4>Find us on Google Maps</h4>{' '}
-								<a href='https://goo.gl/maps/BGLcPPjXMHQvZJdh9'>{props.address}</a>
+								<h4>Find us on Google Maps</h4> <a href='#'>{props.address}</a>
 							</div>
 						) : null}
 					</address>
