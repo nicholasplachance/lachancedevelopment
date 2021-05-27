@@ -4,8 +4,8 @@
     top: 0;
     left: 0; 
     width: 100%;
-    background-color: #ff9800;
-    height: 90px;
+    background-color: #6f0410;
+    height: 200px;
 }
 footer {
     display: flex;
@@ -32,7 +32,7 @@ footer a {
 }
 
 address {
-    width: 90%;
+    width: 44%;
 }
 
 address a {
@@ -47,4 +47,10 @@ footer a:active {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 500px ) {
+    .footerbar {
+        height: 240px;
+    }
 }

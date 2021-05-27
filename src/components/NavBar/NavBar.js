@@ -10,16 +10,13 @@ const NavBar = (props) => {
 					<ToggleButton click={props.drawerToggleClickHandler} />
 				</div>
 				<div className='navbar__logo'>
-					<a>LOGO</a>
+					<a>La Chance Development</a>
 				</div>
 				<div className='spacer'></div>
 				<div className='navbar__items'>
 					<ul>
 						<li>
-							<a>About</a>
-						</li>
-						<li>
-							<a>Contact</a>
+							<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
 						</li>
 					</ul>
 				</div>

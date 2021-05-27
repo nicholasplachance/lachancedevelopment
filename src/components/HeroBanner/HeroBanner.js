@@ -4,10 +4,10 @@ const HeroBanner = (props) => {
 	return (
 		<div className='hero-image'>
 			<div className='hero-text'>
-				<h1>Company Name</h1>
-				<p>This is what we do</p>
+				<h1>La Chance Development</h1>
+				<p>Freelance Web Developer</p>
 				<button className='call-to-action'>
-					<a href='tel:+13145966144'>Call now!</a>
+					<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
 				</button>
 			</div>
 		</div>

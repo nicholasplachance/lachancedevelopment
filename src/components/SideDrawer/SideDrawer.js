@@ -10,12 +10,11 @@ const SideDrawer = (props) => {
 	return (
 		<nav className={drawerClasses}>
 			<ul>
-				<li>
-					<a>About</a>
-				</li>
-				<li>
-					<a>Contact</a>
-				</li>
+				<ul>
+					<li>
+						<a href='mainto:nicholasplachance@gmail.com'>Email us</a>
+					</li>
+				</ul>
 			</ul>
 		</nav>
 	);
