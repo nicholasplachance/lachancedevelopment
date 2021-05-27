@@ -1,0 +1,50 @@
+.footerbar {
+    margin-top: 50px;
+    position: relative;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    background-color: #ff9800;
+    height: 90px;
+}
+footer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    padding: 0 0.5rem;
+}
+
+footer a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+address {
+    width: 90%;
+}
+
+address a {
+    font-size: 16px;
+}
+
+footer a:hover,
+footer a:active {
+    color: #29B6F6
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
