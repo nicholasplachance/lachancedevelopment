@@ -4,8 +4,8 @@ const Section = (props) => {
 	return (
 		<div className='card'>
 			<div className='section-header'>
-				<h2>{props.title}</h2>
-				{props.subtitle ? <h3>{props.subtitle}</h3> : null}
+				<h1>{props.title}</h1>
+				{props.subtitle ? <h2>{props.subtitle}</h2> : null}
 			</div>
 			<div className='section'>
 				<div className='card-container'>
@@ -13,7 +13,7 @@ const Section = (props) => {
 					<address>
 						{props.address ? (
 							<div className='address-container'>
-								<h4>Find us on Google Maps</h4> <a href='#'>{props.address}</a>
+								<h4 href='#'>{props.address}</h4>
 							</div>
 						) : null}
 					</address>
