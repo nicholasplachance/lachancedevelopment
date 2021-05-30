@@ -43,11 +43,16 @@ function App() {
 					subtitle={'Established 2021.'}
 					services={[
 						'Freelance Web Developer',
-						'Designs Websites',
+						'Design and build custom websites and web apps',
 						'Completely custom code and layout',
-						'Mobile responsive design'
+						'Mobile friendly responsive design'
 					]}
 					address={'St. Louis, Missouri'}
+				/>
+				<Section
+					id='pricing'
+					title={'Pricing'}
+					services={['Websites starting at $250 - including deployment']}
 				/>
 				<Section id='contact' title={'Contact me'} services={['Email me: nicholasplachance@gmail.com']} />
 			</Container>

@@ -9,6 +9,9 @@ const Footer = (props) => {
 						<li>
 							<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
 						</li>
+						<li>
+							<p>Lachancedevelopment Est. 2021</p>
+						</li>
 					</ul>
 				</div>
 			</footer>
