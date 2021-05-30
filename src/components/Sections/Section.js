@@ -13,6 +13,7 @@ const Section = (props) => {
 					<address>
 						{props.address ? (
 							<div className='address-container'>
+								<h4>Based in:</h4>
 								<h4 href='#'>{props.address}</h4>
 							</div>
 						) : null}

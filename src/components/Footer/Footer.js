@@ -1,5 +1,7 @@
 import './Footer.css';
 
+import logo from '../../img/logo.png';
+
 const Footer = (props) => {
 	return (
 		<div className='footerbar'>
@@ -9,9 +11,15 @@ const Footer = (props) => {
 						<li>
 							<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
 						</li>
-						<li>
-							<p>Lachancedevelopment Est. 2021</p>
-						</li>
+						<div className='footerbar__logo'>
+							<img
+								className='footerbar__logo__image'
+								src={logo}
+								alt='LaChance development logo'
+								srcset=''
+							/>
+							<a>LaChance Development</a>
+						</div>
 					</ul>
 				</div>
 			</footer>

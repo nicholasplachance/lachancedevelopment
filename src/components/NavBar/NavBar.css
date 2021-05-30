@@ -3,7 +3,7 @@
     top: 0;
     left: 0; 
     width: 100%;
-    background-color: #6f0410;
+    background-color: #081623;
     height: 56px;
 }
 
@@ -15,13 +15,21 @@
 }
 
 .navbar__logo {
-    margin-left: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
 }
 
 .navbar__logo a {
     color: #fff;
     text-decoration: none;
     font-size: 32px;
+}
+
+.navbar__logo__image {
+    width: 40px;
+    margin-right: 10px;
 }
 
 .spacer {

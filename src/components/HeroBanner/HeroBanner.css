@@ -1,5 +1,5 @@
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/background1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/background2.jpg');
     height: 95vh;
     width: 100%;
 
@@ -23,7 +23,7 @@
     border-radius: 5px;
     height: 60px;
     width: 240px;
-    background-color: #6f0410;
+    background-color: #081623;
     border: 1px solid #fff;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +53,7 @@ h3 {
 
 @media (max-width: 940px) {
     .hero-image{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/background2.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/background1.jpg');
         height: 100vh;
     }
 

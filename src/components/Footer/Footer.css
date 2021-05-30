@@ -4,9 +4,22 @@
     top: 0;
     left: 0; 
     width: 100%;
-    background-color: #6f0410;
+    background-color: #081623;
     height: 200px;
 }
+
+.footerbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.footerbar__logo__image {
+    width: 40px;
+    margin-right: 10px;
+}
+
 footer {
     display: flex;
     height: 100%;

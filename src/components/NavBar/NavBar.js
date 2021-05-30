@@ -1,6 +1,7 @@
 import './NavBar.css';
 
 import ToggleButton from '../SideDrawer/ToggleButton';
+import logo from '../../img/logo.png';
 
 const NavBar = (props) => {
 	return (
@@ -10,6 +11,7 @@ const NavBar = (props) => {
 					<ToggleButton click={props.drawerToggleClickHandler} />
 				</div>
 				<div className='navbar__logo'>
+					<img className='navbar__logo__image' src={logo} alt='LaChance development logo' srcset='' />
 					<a>LaChance Development</a>
 				</div>
 				<div className='spacer'></div>
