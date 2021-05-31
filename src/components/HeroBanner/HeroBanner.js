@@ -6,8 +6,8 @@ const HeroBanner = (props) => {
 			<div className='hero-text'>
 				<h1>LaChance Development</h1>
 				<p>Freelance Web Developer</p>
-				<a className='call-to-action' href='mainto:nicholasplachance@gmail.com'>
-					<p>Email me</p>
+				<a className='call-to-action' href='mailto:nicholasplachance@gmail.com'>
+					<p>Send me an email</p>
 				</a>
 				<h4>St. Louis based Web Developer</h4>
 			</div>
