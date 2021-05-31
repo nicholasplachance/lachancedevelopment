@@ -18,7 +18,7 @@ const NavBar = (props) => {
 				<div className='navbar__items'>
 					<ul>
 						<li>
-							<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
+							<a href='mailto:nicholasplachance@gmail.com'>Email me</a>
 						</li>
 					</ul>
 				</div>
