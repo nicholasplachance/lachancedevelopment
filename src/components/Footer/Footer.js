@@ -9,7 +9,7 @@ const Footer = (props) => {
 				<div className='flex-column'>
 					<ul>
 						<li>
-							<a href='mainto:nicholasplachance@gmail.com'>Email me</a>
+							<a href='mailto:nicholasplachance@gmail.com'>Email me</a>
 						</li>
 						<div className='footerbar__logo'>
 							<img
