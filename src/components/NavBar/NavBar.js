@@ -1,5 +1,6 @@
 import './NavBar.css';
 
+import React from 'react';
 import ToggleButton from '../SideDrawer/ToggleButton';
 import logo from '../../img/logo.png';
 

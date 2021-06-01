@@ -5,6 +5,7 @@ import Container from './components/Container/Container';
 import Footer from './components/Footer/Footer';
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import NavBar from './components/NavBar/NavBar';
+import React from 'react';
 import Section from './components/Sections/Section';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import { useState } from 'react';
