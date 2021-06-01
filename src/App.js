@@ -53,7 +53,10 @@ function App() {
 				<Section
 					id='pricing'
 					title={'Pricing'}
-					services={['Websites starting at $250 - including deployment']}
+					services={[
+						'Contact me for pricing - including deployment',
+						'Pricing varies based on project specifications.'
+					]}
 				/>
 				<Section id='contact' title={'Contact me'} services={['Email me: nicholasplachance@gmail.com']} />
 			</Container>
