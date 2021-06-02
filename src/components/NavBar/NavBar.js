@@ -13,7 +13,7 @@ const NavBar = (props) => {
 				</div>
 				<div className='navbar__logo'>
 					<img className='navbar__logo__image' src={logo} alt='LaChance development logo' srcset='' />
-					<a>LaChance Development</a>
+					<p>LaChance Development</p>
 				</div>
 				<div className='spacer'></div>
 				<div className='navbar__items'>
