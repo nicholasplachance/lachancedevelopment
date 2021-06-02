@@ -19,7 +19,7 @@ const Footer = (props) => {
 								alt='LaChance development logo'
 								srcset=''
 							/>
-							<a>LaChance Development</a>
+							<p>LaChance Development</p>
 						</div>
 					</ul>
 				</div>
