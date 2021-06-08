@@ -25,7 +25,6 @@ margin-bottom: 2%;
 .section {
   display: flex;
   justify-content: flex-end;
-  height: 80%;
   text-align: center;
 }
 
@@ -39,7 +38,8 @@ h1, h2, h3, h4 {
 
 ul {
   display: inline-block;
-  width: 50%;
+  width: 60%;
+  word-wrap: break-word;
 }
 
 li {
@@ -60,7 +60,7 @@ a:active {
 }
 
 address {
-  margin: 25px 25%;
+  margin: 15px 30%;
   font-size: 16px;
   width: 50%;
   padding: 5% 0;
