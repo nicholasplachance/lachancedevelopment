@@ -8,7 +8,7 @@ const Footer = (props) => {
 		<div className='footerbar'>
 			<footer>
 				<div className='flex-column'>
-					<ul>
+					<ul className='footer_links'>
 						<li>
 							<a href='mailto:nicholasplachance@gmail.com'>Email me</a>
 						</li>

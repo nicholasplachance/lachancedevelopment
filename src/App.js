@@ -43,22 +43,24 @@ function App() {
 					title={'LaChance Development'}
 					subtitle={'Established 2021.'}
 					services={[
-						'Freelance Web Developer',
-						'Design and build custom websites and web apps',
-						'Completely custom code and layout',
-						'Mobile friendly responsive design'
+						'- Freelance Web Developer',
+						'',
+						'- Design and build custom websites and web apps',
+						'',
+						'- Completely custom code and layout',
+						'',
+						'- Mobile friendly responsive design',
+						'',
+						'- SEO Optimized'
 					]}
 					address={'St. Louis, Missouri'}
 				/>
 				<Section
 					id='pricing'
 					title={'Pricing'}
-					services={[
-						'Contact me for pricing - including deployment',
-						'Pricing varies based on project specifications.'
-					]}
+					services={['Contact me for pricing.', 'Pricing varies based on project specifications.']}
 				/>
-				<Section id='contact' title={'Contact me'} services={['Email me: nicholasplachance@gmail.com']} />
+				<Section id='contact' title={'Contact me'} services={['Email:', 'nicholasplachance@gmail.com']} />
 			</Container>
 			<Footer />
 		</div>

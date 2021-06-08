@@ -1,5 +1,6 @@
 import './Section.css';
 
+import Cardbackground3 from '../../img/cardbackground3.jpg';
 import React from 'react';
 
 const Section = (props) => {
@@ -9,7 +10,7 @@ const Section = (props) => {
 				<h1>{props.title}</h1>
 				{props.subtitle ? <h2>{props.subtitle}</h2> : null}
 			</div>
-			<div className='section'>
+			<div className='section card-img'>
 				<div className='card-container'>
 					<ul>{props.services ? props.services.map((service) => <li>{service}</li>) : null}</ul>
 					<address>

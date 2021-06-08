@@ -6,27 +6,31 @@
   transition: 0.3s;
   border-radius: 5px;
   border: solid 1.25px #fff;
-  background-color: #081623;
-  color: #fff;
+  background-color: #1b2326;
   text-shadow: 1px .75px #111;
+  color: #fff;
+  min-height: 60vh;
+}
+
+.card-container {
+  width: 70%;
 }
 
 .section-header {
-height: 25%;
+height: 20%;
+padding: 2.5% 0;
 margin-bottom: 2%;
 }
 
 .section {
-height: 75%;
-text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 80%;
+  text-align: center;
 }
 
 .card:hover {
   box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card-container {
-  padding: 2px 16px;
 }
 
 h1, h2, h3, h4 {
@@ -34,8 +38,8 @@ h1, h2, h3, h4 {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  width: 50%;
 }
 
 li {
@@ -58,9 +62,21 @@ a:active {
 address {
   margin: 25px 25%;
   font-size: 16px;
+  width: 50%;
+  padding: 5% 0;
 }
 
 .address-container {
   width: 50%;
   margin: 5px 30%;
 }
+
+
+.card-img {
+  background-image: url('../../img/cardbackground3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+

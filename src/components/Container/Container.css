@@ -1,4 +1,4 @@
-.container {
+.main-container {
     display: grid;
     grid-template-rows: auto auto auto;
     grid-gap: 15px;
@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 500px ) {
-    .container {
+    .main-container {
         grid-template-rows: auto;
     }
 }
 
 @media (min-width: 939px ) {
-    .container {
+    .main-container {
         grid-template-columns: auto auto auto;
         
     }
