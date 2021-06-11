@@ -65,5 +65,10 @@ h3 {
         top: 50%;
         left: 50%;
     }
+
+    .call-to-action {
+        width: auto;
+        height: auto;
+    }
     
 }

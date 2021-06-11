@@ -7,7 +7,7 @@ const Section = (props) => {
 	return (
 		<div className='card'>
 			<div className='section-header'>
-				<h1>{props.title}</h1>
+				<h2>{props.title}</h2>
 				{props.subtitle ? <h2>{props.subtitle}</h2> : null}
 			</div>
 			<div className='section card-img'>
