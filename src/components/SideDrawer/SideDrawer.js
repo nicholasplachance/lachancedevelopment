@@ -1,6 +1,7 @@
 import './SideDrawer.css';
 
 import React from 'react';
+import resume from '../../Resume.pdf';
 
 const SideDrawer = (props) => {
 	let drawerClasses = 'side-drawer';
@@ -15,6 +16,11 @@ const SideDrawer = (props) => {
 				<ul>
 					<li>
 						<a href='mailto:nicholasplachance@gmail.com'>Email me</a>
+					</li>
+					<li>
+						<a href={resume} target='_blank'>
+							Resume
+						</a>
 					</li>
 				</ul>
 			</ul>

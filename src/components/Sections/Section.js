@@ -12,7 +12,9 @@ const Section = (props) => {
 			</div>
 			<div className='section card-img'>
 				<div className='card-container'>
-					<ul>{props.services ? props.services.map((service) => <li>{service}</li>) : null}</ul>
+					<ul>
+						{props.services ? props.services.map((service, index) => <li key={index}>{service}</li>) : null}
+					</ul>
 					<address>
 						{props.address ? (
 							<div className='address-container'>

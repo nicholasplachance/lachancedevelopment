@@ -8,6 +8,7 @@ import NavBar from './components/NavBar/NavBar';
 import React from 'react';
 import Section from './components/Sections/Section';
 import SideDrawer from './components/SideDrawer/SideDrawer';
+import resume from './Resume.pdf';
 import { useState } from 'react';
 
 function App() {
