@@ -1,12 +1,12 @@
 .card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  box-shadow: 4px 6px 4px #081623;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 15px;
   border: solid 1.25px #fff;
-  /* background-color: #1b2326; */
-  background-image: url('../../img/cardbackground3.jpg');
+  background-color: #1b2326;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,31 +18,25 @@
 
 
 .section-header {
-  width: 30%;
 background-color: transparent;
 padding: 2.5% 0;
 margin-bottom: 2%;
 }
 
 .section {
-  width: 70%;
-  display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: flex-end;
   text-align: center;
 }
 
-.card:hover {
-  box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
-}
 
 h1, h2, h3, h4 {
   margin: 0;
 }
 
 ul {
+  padding: 0;
   display: inline-block;
-  
   word-wrap: break-word;
 }
 
@@ -64,15 +58,11 @@ a:active {
 }
 
 address {
-  margin: 15px 30%;
   font-size: 16px;
-  width: 50%;
   padding: 5% 0;
 }
 
 .address-container {
-  width: 50%;
-  margin: 5px 30%;
 }
 
 
