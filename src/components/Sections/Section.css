@@ -2,18 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 4px 6px 4px #081623;
+  box-shadow: 2px 5px 13px #081623;
   transition: 0.3s;
-  border-radius: 15px;
-  border: solid 1.25px #fff;
   background-color: #1b2326;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   text-shadow: 1px .75px #111;
   color: #fff;
-  min-height: 60vh;
-  max-width: 96vw;
+  min-height: 45vh;
+  max-width: 100vw;
 }
 
 
