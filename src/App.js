@@ -57,11 +57,13 @@ function App() {
 					address={'St. Louis, Missouri'}
 				/>
 				<Section
-					id='pricing'
-					title={'Pricing'}
-					services={['Contact me for pricing.', 'Pricing varies based on project specifications.']}
+					id='contact'
+					title={'About'}
+					services={[
+						'Hi, my name is Nicholas LaChance, one of my greatest passions is technology. With my passion I taught myself many technologies that allow me to create websites and web applications. My goal is to provide mobile responsive and SEO friendly websites written with clean code.'
+					]}
 				/>
-				<Section id='contact' title={'Contact me'} services={['Email:', 'nicholasplachance@gmail.com']} />
+				<Section id='contact' title={'Contact info'} services={['Email:', 'nicholasplachance@gmail.com']} />
 			</Container>
 			<Footer />
 		</div>
