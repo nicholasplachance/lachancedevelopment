@@ -1,11 +1,47 @@
 import './Section.css';
+import 'aos/dist/aos.css';
 
+import Aos from 'aos';
 import Cardbackground3 from '../../img/cardbackground3.jpg';
 import React from 'react';
+import { useEffect } from 'react';
 
 const Section = (props) => {
+	const effects = [
+		'fade',
+		'fade-up',
+		'fade-down',
+		'fade-left',
+		'fade-right',
+		'flip-up',
+		'flip-down',
+		'flip-left',
+		'flip-right',
+		'slide-up',
+		'slide-down',
+		'slide-left',
+		'slide-right',
+		'zoom-in',
+		'zoom-in-up',
+		'zoom-in-down',
+		'zoom-in-left',
+		'zoom-in-right',
+		'zoom-out',
+		'zoom-out-up',
+		'zoom-out-down',
+		'zoom-out-left',
+		'zoom-out-right'
+	];
+
+	const randomEffect = effects[Math.floor(Math.random() * effects.length)];
+
+	console.log(randomEffect);
+
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 	return (
-		<div className='card'>
+		<div data-aos={randomEffect} className='card'>
 			<div className='section-header'>
 				<h2>{props.title}</h2>
 				{props.subtitle ? <h2>{props.subtitle}</h2> : null}

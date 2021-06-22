@@ -1,5 +1,9 @@
 import './App.css';
+import 'aos/dist/aos.css';
 
+import { useEffect, useState } from 'react';
+
+import Aos from 'aos';
 import BackDrop from './components/BackDrop/BackDrop';
 import Container from './components/Container/Container';
 import Footer from './components/Footer/Footer';
@@ -8,8 +12,6 @@ import NavBar from './components/NavBar/NavBar';
 import React from 'react';
 import Section from './components/Sections/Section';
 import SideDrawer from './components/SideDrawer/SideDrawer';
-import resume from './Resume.pdf';
-import { useState } from 'react';
 
 function App() {
 	const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -31,7 +33,6 @@ function App() {
 		sideDrawer = <SideDrawer />;
 		backdrop = <BackDrop click={backDropClickHandler} />;
 	}
-
 	return (
 		<div className='App'>
 			<NavBar drawerToggleClickHandler={drawerToggleClickHandler} />
