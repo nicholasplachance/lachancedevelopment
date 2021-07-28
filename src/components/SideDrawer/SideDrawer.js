@@ -24,7 +24,12 @@ const SideDrawer = (props) => {
     <nav className={drawerClasses}>
       <ul>
         <ul>
-          <Link to={"/work"}>Work Showcase</Link>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to={"/work"}>Work Experience</Link>
+          </li>
           <li>
             <a href='mailto:nicholasplachance@gmail.com'>Email me</a>
           </li>

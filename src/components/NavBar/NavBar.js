@@ -35,6 +35,9 @@ const NavBar = (props) => {
                 Resume
               </a>
             </li>
+            <li>
+              <Link to='/work'>Work Experience</Link>
+            </li>
           </ul>
         </div>
       </nav>
