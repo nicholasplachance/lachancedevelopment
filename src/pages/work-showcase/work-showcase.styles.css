@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation: slide 15s linear infinite;
+    animation: slide 35s linear infinite;
 }
 
 @keyframes slide {
