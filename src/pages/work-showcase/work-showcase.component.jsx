@@ -29,9 +29,7 @@ const WorkShowCasePage = () => {
             style={{ backgroundImage: `url(${ComingSoon})` }}
             className='showcase-image'></div>
           <div className='showcase-text'>
-            <Link
-              to={{ pathname: "http://crown-clothing-001.herokuapp.com/" }}
-              target='_blank'>
+            <Link to={{ pathname: "/" }} target='_blank'>
               <h2>Tech Stack</h2>
               <h3>Project coming soon...</h3>
             </Link>
@@ -42,9 +40,7 @@ const WorkShowCasePage = () => {
             style={{ backgroundImage: `url(${ComingSoon})` }}
             className='showcase-image'></div>
           <div className='showcase-text'>
-            <Link
-              to={{ pathname: "http://crown-clothing-001.herokuapp.com/" }}
-              target='_blank'>
+            <Link to={{ pathname: "/" }} target='_blank'>
               <h2>Tech Stack</h2>
               <h3>Project coming soon...</h3>
             </Link>
