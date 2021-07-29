@@ -1,0 +1,52 @@
+.showcase-card {
+    height: 500px;
+    width: 60vw;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-image {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-position: top;
+    }
+
+    100% {
+        background-position: bottom;
+    }
+}
+
+.showcase-image:hover {
+    animation-play-state: paused;
+}
+
+.showcase-text {
+    width: 95%;
+    position: absolute;
+    top: 70%;
+    background-color: #081623;
+    opacity: .7;
+}
+
+
+
+.showcase-text:hover {
+    opacity: .95;
+    cursor: pointer;
+}
