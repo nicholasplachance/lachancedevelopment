@@ -1,6 +1,5 @@
 .showcase-card {
     height: 500px;
-    width: 60vw;
     border: 1px solid black;
     position: relative;
     display: flex;
@@ -8,6 +7,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.showcase-header {
+    font-size: 36px;
+    line-height: 80px;
+    text-shadow: 1px 1px 1px white;
+}
+
 
 .showcase-image {
     height: 100%;

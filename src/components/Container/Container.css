@@ -3,23 +3,20 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 
 .main-container > * {
     margin: 15px 10px;
 }
 
-@media (max-width: 500px ) {
-    .main-container {
-        grid-template-rows: auto;
-    }
-}
-
 @media (min-width: 939px ) {
     .main-container {
         flex-direction: row;
         
+    }
+
+    .main-container > * {
+        width: 30vw;
     }
 
 }

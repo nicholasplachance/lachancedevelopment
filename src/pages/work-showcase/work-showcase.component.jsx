@@ -9,6 +9,9 @@ const WorkShowCasePage = () => {
   console.log(CrownClothing);
   return (
     <div className='show-case-page'>
+      <div className='showcase-header'>
+        <h2>Work | Project showcase</h2>
+      </div>
       <Container>
         <div className='showcase-card'>
           <div
