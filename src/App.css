@@ -48,3 +48,17 @@ html, body {
 .spacer {
   height: 5vh;
 }
+
+.under-construction {
+  height: 30px;
+  width: 100vw;
+  background-color: red;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #666;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
