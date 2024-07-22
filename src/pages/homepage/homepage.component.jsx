@@ -9,26 +9,24 @@ const HomePage = () => {
       <main className='spacer'></main>
       <Container>
         <Section
-          title={"LaChance Development"}
-          subtitle={"Established 2021."}
+          title={"About Me"}
+          subtitle={"Performance Test Engineer"}
           services={[
-            "- Freelance Web Developer",
-            "",
-            "- Design and build custom websites and web apps",
-            "",
-            "- Completely custom code and layout",
-            "",
-            "- Mobile friendly responsive design",
-            "",
-            "- SEO Optimized",
+            "Experienced in JMeter, LoadRunner, Performance Center",
+            "Expertise in creating performance testing strategies",
+            "Proven track record of identifying and resolving performance bottlenecks",
+            "Adept at analyzing performance metrics and optimizing systems"
           ]}
           address={"St. Louis, Missouri"}
         />
         <Section
-          id='contact'
-          title={"About"}
+          title={"Skill Set"}
           services={[
-            "Hi, my name is Nicholas LaChance, one of my greatest passions is technology. With my passion I taught myself many technologies that allow me to create websites and web applications. My goal is to provide mobile responsive and SEO friendly websites written with clean code.",
+            "Holiday load testing",
+            "SFRA load testing",
+            "Client-side performance testing with Sitespeed.io",
+            "Load testing using JMeter and hosting the tests using BlazeMeter",
+            "Architect and set up load and performance testing frameworks in enterprise environments"
           ]}
         />
         <Section

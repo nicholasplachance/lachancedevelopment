@@ -1,7 +1,5 @@
 import "./NavBar.css";
-
 import { Link, withRouter } from "react-router-dom";
-
 import React from "react";
 import ToggleButton from "../SideDrawer/ToggleButton";
 import logo from "../../img/logo.png";
@@ -31,12 +29,13 @@ const NavBar = (props) => {
               <a href='mailto:nicholasplachance@gmail.com'>Email me</a>
             </li>
             <li>
-              <a href={resume} target='_blank'>
-                Resume
-              </a>
+              <a href={resume} target='_blank'>Resume</a>
             </li>
             <li>
               <Link to='/work'>Work Experience</Link>
+            </li>
+            <li>
+              <Link to='/projects'>Projects</Link>
             </li>
           </ul>
         </div>

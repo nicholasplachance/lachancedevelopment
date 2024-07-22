@@ -12,6 +12,7 @@
 		"@testing-library/react": "^11.2.6",
 		"@testing-library/user-event": "^12.8.3",
 		"aos": "^2.3.4",
+		"caniuse-lite": "^1.0.30001643",
 		"express": "^4.17.1",
 		"ignore-styles": "^5.0.1",
 		"react": "^17.0.2",
@@ -23,13 +24,14 @@
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"postbuild": "react-snap",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"ssr": "node server/index.js"
-	},
+	"start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+	"build": "react-scripts build",
+	"postbuild": "react-snap",
+	"test": "react-scripts test",
+	"eject": "react-scripts eject",
+	"ssr": "node server/index.js"
+	}
+		,
 	"eslintConfig": {
 		"extends": [
 			"react-app",

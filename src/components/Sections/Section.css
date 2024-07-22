@@ -10,22 +10,17 @@
   text-shadow: 1px .75px #111;
   color: #fff;
   min-height: 45vh;
-  
 }
 
-
 .section-header {
-background-color: transparent;
-padding: 2.5% 0;
-margin-bottom: 2%;
+  background-color: transparent;
+  padding: 2.5% 0;
+  margin-bottom: 2%;
 }
 
 .section {
   width: 100%;
-  align-items: center;
-  text-align: center;
 }
-
 
 h1, h2, h3, h4 {
   margin: 0;
@@ -35,12 +30,14 @@ ul {
   padding: 0;
   display: inline-block;
   word-wrap: break-word;
+  list-style-type: disc; /* Add bullets */
+  margin-left: 20px; /* Indent bullets */
 }
 
 li {
-  list-style-type: none;
   font-size: 24px;
   line-height: 36px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -62,11 +59,8 @@ address {
 .address-container {
 }
 
-
-
-
 @media(max-width: 405px) {
-  .card{
+  .card {
     flex-direction: column;
     align-items: flex-end;
   }
@@ -85,8 +79,4 @@ address {
   ul {
     display: block;
   }
-
-
 }
-
-
