@@ -12,27 +12,27 @@ const HomePage = () => {
           title={"About Me"}
           subtitle={"Performance Test Engineer"}
           services={[
-            "Experienced in JMeter, LoadRunner, Performance Center",
-            "Expertise in creating performance testing strategies",
-            "Proven track record of identifying and resolving performance bottlenecks",
-            "Adept at analyzing performance metrics and optimizing systems"
+            "Experienced in performance testing tools such as JMeter, LoadRunner, and Performance Center",
+            "Expertise in developing and implementing performance testing strategies",
+            "Proven ability to identify and resolve performance bottlenecks",
+            "Skilled in analyzing performance metrics and optimizing system performance"
           ]}
           address={"St. Louis, Missouri"}
         />
         <Section
           title={"Skill Set"}
           services={[
-            "Holiday load testing",
-            "SFRA load testing",
-            "Client-side performance testing with Sitespeed.io",
-            "Load testing using JMeter and hosting the tests using BlazeMeter",
-            "Architect and set up load and performance testing frameworks in enterprise environments"
+            "Holiday peak load testing",
+            "Salesforce Commerce Cloud (SFCC) performance testing",
+            "Client-side performance testing with tools like Sitespeed.io",
+            "Load testing using JMeter and BlazeMeter",
+            "Designing and implementing load and performance testing frameworks for enterprise environments"
           ]}
         />
         <Section
           id='contact'
-          title={"Contact info"}
-          services={["Email:", "nicholasplachance@gmail.com"]}
+          title={"Contact Information"}
+          services={["Email: nicholasplachance@gmail.com"]}
         />
       </Container>
     </div>
