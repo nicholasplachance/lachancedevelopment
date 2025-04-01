@@ -32,7 +32,6 @@ function App() {
   }
   return (
     <div className='App'>
-      <div className='under-construction'>Site Under Construction</div>
       <NavBar drawerToggleClickHandler={drawerToggleClickHandler} />
       <SideDrawer show={sideDrawerOpen} />
       {backdrop}
