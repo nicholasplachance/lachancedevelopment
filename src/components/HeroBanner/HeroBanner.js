@@ -4,20 +4,29 @@ import React from 'react';
 
 const HeroBanner = (props) => {
 	return (
-		<div className='hero-image'>
-			<div className='hero-title'>
-				<h2 className='hero-text-title'>My name is Nick.</h2>
-				<p>Specializing in Load & Performance Testing with JMeter, BlazeMeter, and Sitespeed.io</p>
-			</div>
-			<div className='hero-text'>
-				<h1>LaChance Development</h1>
-				<p>Application Performance Test Engineer</p>
-				<a className='call-to-action' href='mailto:nicholasplachance@gmail.com'>
-					<p>Get in touch</p>
-				</a>
-				<h4>St. Louis based Web Developer</h4>
-			</div>
-		</div>
+		<div className="hero-container">
+  <h1>Hi, I'm Nick</h1>
+  <h2>Performance Test Engineer</h2>
+  <p>
+    I specialize in load testing, performance analysis, and making web applications bulletproof under pressure.<br />
+    Tools I use: <strong>JMeter</strong>, <strong>BlazeMeter</strong>, <strong>Sitespeed.io</strong>, and <strong>Lotus</strong>.
+  </p>
+  <div className="hero-metrics">
+    <div className="metric-box">
+      <span className="metric-label">Max Load</span>
+      <span className="metric-value">15k req/s</span>
+    </div>
+    <div className="metric-box">
+      <span className="metric-label">Avg Load Time</span>
+      <span className="metric-value">0.9s</span>
+    </div>
+    <div className="metric-box">
+      <span className="metric-label">Tools</span>
+      <span className="metric-value">JMeter, Sitespeed, BlazeMeter</span>
+    </div>
+  </div>
+</div>
+
 	);
 };
 
