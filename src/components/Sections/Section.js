@@ -2,7 +2,7 @@ import "./Section.css";
 import "aos/dist/aos.css";
 
 import Aos from "aos";
-import Cardbackground3 from "../../img/cardbackground3.jpg";
+// import Cardbackground3 from "../../img/cardbackground3.jpg";
 import React from "react";
 import { useEffect } from "react";
 

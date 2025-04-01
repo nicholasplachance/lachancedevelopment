@@ -15,7 +15,7 @@ const Footer = (props) => {
                 <a href='mailto:nicholasplachance@gmail.com'>Email me</a>
               </li>
               <li>
-                <a href={resume} target='_blank'>Resume</a>
+              <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
               </li>
             </ul>
           </div>

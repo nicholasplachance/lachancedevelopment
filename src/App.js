@@ -8,7 +8,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import NavBar from "./components/NavBar/NavBar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import WorkShowCasePage from "./pages/work-showcase/work-showcase.component";
-import ProjectsPage from "./pages/projects/projects.component";
+// import ProjectsPage from "./pages/projects/projects.component";
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
