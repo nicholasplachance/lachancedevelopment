@@ -22,11 +22,10 @@ const HomePage = () => {
         <Section
           title={"Skill Set"}
           services={[
-            "Holiday peak load testing",
-            "Salesforce Commerce Cloud (SFCC) performance testing",
-            "Client-side performance testing with tools like Sitespeed.io",
-            "Load testing using JMeter and BlazeMeter",
-            "Designing and implementing load and performance testing frameworks for enterprise environments"
+            "Specialist in performance testing tools: Apache JMeter, BlazeMeter, and Sitespeed.io",
+            "Experience with Lotus for backend and API testing",
+            "Skilled in load testing, stress testing, and performance analysis",
+            "Comfortable working in CI/CD pipelines for performance regression"
           ]}
         />
         <Section

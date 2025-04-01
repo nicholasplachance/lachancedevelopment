@@ -38,7 +38,7 @@ function App() {
       {backdrop}
       <Switch>
         <Route path='/work' component={withRouter(WorkShowCasePage)} />
-        <Route path='/projects' component={ProjectsPage} />
+        {/* <Route path='/projects' component={ProjectsPage} /> */}
         <Route exact path='/' component={HomePage} />
       </Switch>
       <Footer />

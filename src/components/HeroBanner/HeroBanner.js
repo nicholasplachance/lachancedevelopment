@@ -7,7 +7,7 @@ const HeroBanner = (props) => {
 		<div className='hero-image'>
 			<div className='hero-title'>
 				<h2 className='hero-text-title'>My name is Nick.</h2>
-				<p>I am a Performance Test Engineer.</p>
+				<p>Specializing in Load & Performance Testing with JMeter, BlazeMeter, and Sitespeed.io</p>
 			</div>
 			<div className='hero-text'>
 				<h1>LaChance Development</h1>

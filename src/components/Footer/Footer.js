@@ -24,9 +24,9 @@ const Footer = (props) => {
               <li>
                 <Link to='/work'>Work Experience</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to='/projects'>Projects</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
