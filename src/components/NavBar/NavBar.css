@@ -1,88 +1,70 @@
 .navbar {
-    position: relative;
+    position: sticky;
     top: 0;
-    left: 0; 
+    left: 0;
+    z-index: 1000;
     width: 100%;
-    background-color: #081623;
-    height: 56px;
-    margin-top: 30px;
-}
-
-.navbar-navigation {
+    background-color: #0f1115;
+    box-shadow: 0 0 10px rgba(0, 255, 160, 0.1);
+    border-bottom: 1px solid #292c33;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-navigation {
     display: flex;
-    height: 100%;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
-}
-
-.navbar__logo {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+  }
+  
+  .navbar__logo {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 1.5rem;
-}
-
-.navbar__logo p {
-    color: #fff;
-    text-decoration: none;
-    font-size: 32px;
-}
-
-.navbar__logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 32px;
-}
-
-.navbar__logo__image {
-    width: 40px;
-    margin-right: 10px;
-}
-
-.spacer {
-    flex: 1;
-}
-
-.navbar__items ul {
-    list-style: none;
+    gap: 10px;
+  }
+  
+  .navbar__logo__image {
+    width: 36px;
+    height: auto;
+  }
+  
+  .navbar__logo p {
+    font-size: 1.5rem;
+    color: #00f5a0;
+    font-weight: bold;
     margin: 0;
-    padding: 0;
+  }
+  
+  .navbar__items ul {
     display: flex;
-}
-
-.navbar__items li {
-    padding: 0 0.5rem;
-}
-
-.navbar__items a {
-    color: #fff;
+    list-style: none;
+    gap: 1.25rem;
+  }
+  
+  .navbar__items li a {
     text-decoration: none;
-}
-
-.navbar__navigation a:hover,
-.navbar__navigation a:active {
-    color: #29B6F6
-}
-
-@media (max-width: 939px ) {
+    color: #eaeaea;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__items li a:hover {
+    color: #00c9ff;
+  }
+  
+  .navbar__toggle_button {
+    display: none;
+  }
+  
+  @media (max-width: 940px) {
     .navbar__items {
-        display: none;
+      display: none;
     }
-
-}
-
-@media ( min-width: 941px ) {
+  
     .navbar__toggle_button {
-        display: none;
+      display: block;
     }
-
-    .navbar__logo {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 500px ) {
-    .navbar {
-        height: 80px;
-    }
-}
+  }
+  

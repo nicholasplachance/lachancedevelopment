@@ -20,14 +20,15 @@
     margin-right: 10px;
   }
   
-  footer {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
+  .footer {
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+    border-top: 1px solid #292c33;
+    background-color: #0f1115;
+    color: #888;
+    text-align: center;
   }
+  
   
   .footer_links {
     list-style: none;
