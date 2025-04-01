@@ -21,8 +21,12 @@ const HeroBanner = (props) => {
 					<span className="metric-value">0.9s</span>
 				</div>
 				<div className="metric-box">
-					<span className="metric-label">Tools: </span>
-					<span className="metric-value">JMeter, Sitespeed, BlazeMeter</span>
+					<span className="metric-label">Load Test Tools: </span>
+					<span className="metric-value">JMeter, BlazeMeter, Lotus</span>
+				</div>
+				<div className="metric-box">
+					<span className="metric-label">Client-side Performance Test Tools: </span>
+					<span className="metric-value">Sitespeed.io, Lighthouse</span>
 				</div>
 			</div>
 		</div>
