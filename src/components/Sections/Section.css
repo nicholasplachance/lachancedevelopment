@@ -1,82 +1,64 @@
 .card {
   display: flex;
-  padding: 25px 10px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  box-shadow: 2px 5px 13px #081623;
-  transition: 0.3s;
-  background-color: #1b2326;
-  text-shadow: 1px .75px #111;
-  color: #fff;
-  min-height: 45vh;
+  background-color: #1a1d23;
+  color: #eaeaea;
+  padding: 40px 30px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 160, 0.05);
+  border: 1px solid #292c33;
+  max-width: 900px;
+  transition: transform 0.3s ease;
+  font-family: 'IBM Plex Mono', monospace;
+
 }
 
-.section-header {
-  background-color: transparent;
-  padding: 2.5% 0;
-  margin-bottom: 2%;
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 40px rgba(0, 245, 160, 0.15);
 }
 
-.section {
-  width: 100%;
-}
-
-h1, h2, h3, h4 {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  display: inline-block;
-  word-wrap: break-word;
-  list-style-type: disc; /* Add bullets */
-  margin-left: 20px; /* Indent bullets */
-}
-
-li {
-  font-size: 24px;
-  line-height: 36px;
+.section-header h2 {
+  color: #00f5a0;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
+.section-header h2 + h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #00c9ff;
 }
 
-a:active {
-  color: #111;
-  text-decoration: none;
-  cursor: pointer;
+.card-container ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
 }
 
-address {
-  font-size: 16px;
-  padding: 5% 0;
+.card-container li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 8px;
 }
 
-.address-container {
+.address-container h4 {
+  font-weight: 400;
+  color: #aaa;
 }
 
-@media(max-width: 405px) {
+@media (max-width: 480px) {
   .card {
-    flex-direction: column;
-    align-items: flex-end;
+    padding: 25px 20px;
   }
 
-  .section-header {
-    width: 85%;
-    height: 20%;
-    padding: 15%;
+  .section-header h2 {
+    font-size: 1.5rem;
   }
 
-  .card-container {
-    padding: 5%;
-    width: 80%;
-  }
-
-  ul {
-    display: block;
+  .card-container li {
+    font-size: 1rem;
   }
 }

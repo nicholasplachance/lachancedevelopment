@@ -9,30 +9,39 @@ const HomePage = () => {
       <main className='spacer'></main>
       <Container>
         <Section
-          title={"About Me"}
-          subtitle={"Performance Test Engineer"}
+          title={"Load & Performance Testing"}
+          subtitle={"Scaling systems under pressure"}
           services={[
-            "Experienced in performance testing tools such as JMeter, LoadRunner, and Performance Center",
-            "Expertise in developing and implementing performance testing strategies",
-            "Proven ability to identify and resolve performance bottlenecks",
-            "Skilled in analyzing performance metrics and optimizing system performance"
+            "Simulate high-traffic scenarios with JMeter and BlazeMeter",
+            "Identify bottlenecks and tune system performance",
+            "Test APIs, databases, and frontend under load",
+            "Generate detailed test reports and dashboards"
           ]}
-          address={"St. Louis, Missouri"}
         />
+
         <Section
-          title={"Skill Set"}
+          title={"Frontend Performance Optimization"}
+          subtitle={"Improving real user experience"}
           services={[
-            "Specialist in performance testing tools: Apache JMeter, BlazeMeter, and Sitespeed.io",
-            "Experience with Lotus for backend and API testing",
-            "Skilled in load testing, stress testing, and performance analysis",
-            "Comfortable working in CI/CD pipelines for performance regression"
+            "Use Sitespeed.io and Lighthouse for web vitals auditing",
+            "Analyze Time-to-First-Byte, LCP, CLS, and TTI",
+            "Optimize frontend assets, lazy loading, and JS execution",
+            "Benchmark against industry leaders"
           ]}
         />
+
         <Section
           id='contact'
-          title={"Contact Information"}
-          services={["Email: nicholasplachance@gmail.com"]}
+          title={"CI/CD & Automation"}
+          subtitle={"Catch regressions before release"}
+          services={[
+            "Integrate load tests into GitHub Actions workflows",
+            "Use Lotus for rapid API and backend stress testing",
+            "Set performance budgets and gate builds",
+            "Automated dashboards with Sitespeed or Grafana"
+          ]}
         />
+
       </Container>
     </div>
   );
