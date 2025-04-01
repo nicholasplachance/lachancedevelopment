@@ -1,62 +1,120 @@
-html, body {
-  height: 100%;
+/* === Base Reset === */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App {
+html,
+body {
   height: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #0f1115;
+  color: #eaeaea;
+  scroll-behavior: smooth;
+  line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* === Layout Wrappers === */
+.App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  padding-bottom: 4rem; /* room for footer */
 }
 
-.App-link {
-  color: #61dafb;
+/* === Typography === */
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 2.75rem;
+  color: #00f5a0;
 }
 
-
-.spacer {
-  height: 5vh;
+h2 {
+  font-size: 2rem;
+  color: #00c9ff;
 }
 
-.under-construction {
-  height: 30px;
-  width: 100vw;
-  background-color: red;
+p, li {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* === Utility Spacing === */
+.section-spacing {
+  padding: 4rem 1rem;
+}
+
+.max-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.spacer-sm {
+  height: 2rem;
+}
+
+.spacer-lg {
+  height: 5rem;
+}
+
+/* === Links & Buttons === */
+a {
+  color: #00f5a0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #00c9ff;
+}
+
+button {
+  background: #00f5a0;
+  color: #0f1115;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00c9ff;
+}
+
+/* === Footer === */
+footer {
+  background: #0f1115;
   text-align: center;
-  line-height: 30px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 1px #666;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #292c33;
+}
+
+/* === Banner (Optional Debug/Notice) === */
+.under-construction {
   position: fixed;
-  z-index: 20;
   top: 0;
   left: 0;
+  width: 100%;
+  background: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem 0;
+  z-index: 9999;
 }
